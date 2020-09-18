@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Magone</title>
+</head>
+<body>
+  <style>
+    .container {
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    
+    .image {
+      opacity: 1;
+      display: block;
+      width: 100%;
+      height: auto;
+      transition: .5s ease;
+      backface-visibility: hidden;
+    }
+    
+    .middle {
+      transition: .5s ease;
+      opacity: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%)
+    }
+    
+    .container:hover .image {
+      opacity: 0.3;
+    }
+    
+    .container:hover .middle {
+      opacity: 1;
+    }
+    
+    .text {
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      padding: 16px 32px;
+    }
+    </style>
+<h1 style="font-size: 100px; color: teal; text-align:center"> Septiņi pasaules brīnumi</h1>
+<br><hr>
+<p style="background-color:rgb(236, 251, 255); font-family:Arial, Helvetica, sans-serif;"> Ir zināms, ka 5. gs. p.m.ē. sengrieķu vēsturnieks Hērodots un 3. gs. p.m.ē. dzejnieks un zinātnieks Kallimahs radījuši pirmos zināmos septiņu brīnumu sarakstus, taču tie līdz mūsdienām nav saglabājušies. Pirmais mūsdienās zināmais septiņu pasaules brīnumu uzskaitījums ir dzejolis, kuru ap 140. gadu p.m.ē. sarakstījis Antipaters no Sidonas, taču tajā Aleksandrijas bākas vietā minēti Ištaras vārti Babilonā. Mūsdienās pazīstamais septiņu pasaules brīnumu saraksts ir sastādīts Viduslaikos, kad lielākā daļa tajā minēto objektu jau vairs nepastāvēja, turklāt tas balstījās uz sengrieķu rakstiem, tāpēc tajā iekļauti tikai senajiem grieķiem zināmi un viņu apmeklēti objekti. Vienīgais no septiņiem brīnumiem, kas saglabājies līdz mūsdienām, ir Gīzas piramīdas, ir apstiprināts, ka no atlikušajiem brīnumiem noteikti pastāvējuši pieci, šaubas, drošu vēsturisku liecību trūkuma dēļ, izraisa Babilonas gaisa dārzi.</p>
+<br>
+<div class="container">
+  <img src="https://cff2.earth.com/uploads/2018/07/31131454/Great-Pyramid-of-Giza-can-focus-electromagnetic-energy-.jpg" alt="Piramīda" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><a href="https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza">Lielā Gizas piamīda</a></div>
+  </div>
+</div>
+<br>
+<div class="container">
+  <img src="https://s4.thingpic.com/images/MC/LE1TNLhjNKCKwS3RS28fsgq1.jpeg" alt="Koloss" class="image" style="width:100%">
+  <div class="middle">
+    <div class="text"><a href="https://en.wikipedia.org/wiki/Colossus_of_Rhodes">Rodas koloss</a></div>
+  </div>
+</div>
+<br>
+<div class="container">
+    <img src="https://www.nationalgeographic.com/content/dam/archaeologyandhistory/rights-exempt/history-magazine/2020/07-08/hanging-gardens/babylonian-oasis-artist-rendering.adapt.1900.1.jpg" alt="Dārzi" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="https://en.wikipedia.org/wiki/Hanging_Gardens_of_Babylon">Babilonas gaisa dārzi</a></div>
+    </div>
+  </div>
+<br>
+<div class="container">
+    <img src="https://www.ancient.eu/uploads/images/7615.jpg?v=1599493503" alt="Bāka" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="https://en.wikipedia.org/wiki/Lighthouse_of_Alexandria">Aleksandrijas bāka</a></div>
+    </div>
+  </div>
+<br>
+<div class="container">
+    <img src="https://i.redd.it/5xnt3od1i9321.jpg" alt="Mauzolejs" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="https://en.wikipedia.org/wiki/Mausoleum_at_Halicarnassus">Halikarnāsas mauzolejs</a></div>
+    </div>
+  </div>
+<br>
+<div class="container">
+    <img src="https://www.ancient-origins.net/sites/default/files/field/image/statue-of-Zeus-Olympia.jpg" alt="Statuja" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="https://en.wikipedia.org/wiki/Statue_of_Zeus_at_Olympia">Zeva statuja Olimpijā</a></div>
+    </div>
+  </div>
+<br>
+<div class="container">
+    <img src="https://drivethruhistory.com/wp-content/uploads/2018/10/3_Temple-of-Artemis-A11.jpg" alt="Templis" class="image" style="width:100%">
+    <div class="middle">
+      <div class="text"><a href="https://en.wikipedia.org/wiki/Temple_of_Artemis">Artemīdas templis</a></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
